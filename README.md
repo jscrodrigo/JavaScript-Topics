@@ -7,6 +7,7 @@ This is a very, very basic demonstration of an average calculation code.
  
 # How to...
 1) Declare variables:
+  Rhe
   * const myName = 'Paul Stone';
   * const myAge = 22;
   * let myName02 = 'Ernie Smith';

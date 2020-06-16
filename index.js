@@ -1,12 +1,16 @@
-const student1 = 'Amanda';
-const student2 = 'Billy';
-const student3 = 'Rooney';
+const employee1 = 'Amanda';
+const salaryemployee1 = 2000;
 
-const salaryStudent1 = 2550;
-const salaryStudent2 = 4000;
-const salaryStudent3 = 1500;
+const employee2 = 'Billy';
+const salaryemployee2 = 4000;
 
-const avg = (salaryStudent1 + salaryStudent2 + salaryStudent3) / 3;
+const employee3 = 'Rooney';
+const salaryemployee3 = 1500;
 
-console.log(`${student1} has a salary of ${salaryStudent1}. ${student2} has a salaray of
-${salaryStudent2} and ${student3} has a salary of ${salaryStudent3}`);
+const avg = (salaryemployee1 + salaryemployee2 + salaryemployee3) / 3;
+
+if(avg > 3500 ){
+  console.log(`Congratulations, ${avg} is higher than the average payment! `);
+} else{
+  console.log(`${avg} is lower than the average payment. You need to work more.`);
+}
