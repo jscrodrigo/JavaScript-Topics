@@ -55,7 +55,7 @@ if(true){
       return parameter
     };
     ```
-  * Calling this function: `let x = myFunction02(parameter);`
+  Calling this function: `let x = myFunction01(parameter);`
 
   * Function expression:
     ```
