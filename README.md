@@ -6,7 +6,8 @@ some basics topics of programming.
 - How to declare variables in JavaScript
 - How to use template strings and log it in the console.
 - How to use conditional blocks (if/else);
-- How to declare objects and arrays
+- How to declare objects and arrays;
+-How to create functions
  
 # How to...
 1) Declare variables:
@@ -16,8 +17,8 @@ some basics topics of programming.
   * let myName02 = 'Ernie Smith';
   * let myAge02 = 30;
 2) Use template strings and log it in the console:
-  * console.log(`${yourVariable} followed by some text. You can also add math operations, conditionals,
-   etc, inside the ${}`);
+  * console.log(``${yourVariable} followed by some text. You can also add math operations, conditionals,
+   etc, inside the ${}``);
 3) Use conditional blocks:
 * `if(true){
     //do something if TRUE;
@@ -34,3 +35,15 @@ some basics topics of programming.
 
   * Arrays are not but a variable composed of elements of the same type.
     For example: `const names = ["John", "Elliot", "Valerie", "Megan"];`
+5) Function are used to avoid writing the same code many times. To declare functions we need to
+  specify, if necessary, the parameters. In the examples bellow, a function has two parameters:
+  * Function declaration:
+    `function myFunction(parameter) {
+      //do something with parameter
+      return parameter
+    };`
+
+  * Function expression:
+    `const myFunction = function(parameter) {
+      //do something
+    };`
