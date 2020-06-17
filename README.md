@@ -6,6 +6,7 @@ some basics topics of programming.
 - How to declare variables in JavaScript
 - How to use template strings and log it in the console.
 - How to use conditional blocks (if/else);
+- How to declare objects and arrays
  
 # How to...
 1) Declare variables:
@@ -23,3 +24,13 @@ some basics topics of programming.
 } else {
   do another thing if FALSE
 }`
+4) Declare objects and arrays:
+  * Objects are one of the most important topics in programming. It's formed of attributes and methods.
+    Think about a coffe machine. It has a start button, color, serial number, etc. We can gather these
+    informations as follow: `const coffeMachine = {
+    buttonType: "Start/Stop",
+    color: "blue",
+    serialNumber: 12345};`
+
+  * Arrays are not but a variable composed of elements of the same type.
+    For example: `const names = ["John", "Elliot", "Valerie", "Megan"];`
