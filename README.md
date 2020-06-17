@@ -12,38 +12,51 @@ some basics topics of programming.
 # How to...
 1) Declare variables:
   Nowadays the most common ways to declare variables are using `let` and `const`
-  * const myName = 'Paul Stone';
-  * const myAge = 22;
-  * let myName02 = 'Ernie Smith';
-  * let myAge02 = 30;
+  * ```const myName = 'Paul Stone';```
+  * ```const myAge = 22;```
+  * ```let myName02 = 'Ernie Smith';```
+  * ```let myAge02 = 30;```
 2) Use template strings and log it in the console:
-  * console.log(``${yourVariable} followed by some text. You can also add math operations, conditionals,
-   etc, inside the ${}``);
+  
+  ``` 
+  console.log(`${yourVariable} followed by some text. You can also add math operations, conditionals,
+   etc, inside the ${}`);
+   ```
 3) Use conditional blocks:
-* `if(true){
+
+```
+if(true){
     //do something if TRUE;
 } else {
   do another thing if FALSE
-}`
+}
+```
 4) Declare objects and arrays:
   * Objects are one of the most important topics in programming. It's formed of attributes and methods.
     Think about a coffe machine. It has a start button, color, serial number, etc. We can gather these
-    informations as follow: `const coffeMachine = {
+    informations as follow: 
+    ```
+    const coffeMachine = {
     buttonType: "Start/Stop",
     color: "blue",
-    serialNumber: 12345};`
+    serialNumber: 12345};
+    ```
 
   * Arrays are not but a variable composed of elements of the same type.
-    For example: `const names = ["John", "Elliot", "Valerie", "Megan"];`
+    For example: ```const names = ["John", "Elliot", "Valerie", "Megan"];```
 5) Function are used to avoid writing the same code many times. To declare functions we need to
   specify, if necessary, the parameters. In the examples bellow, a function has two parameters:
   * Function declaration:
-    `function myFunction(parameter) {
+    ```
+    function myFunction(parameter) {
       //do something with parameter
       return parameter
-    };`
+    };
+    ```
 
   * Function expression:
-    `const myFunction = function(parameter) {
+    ```
+    const myFunction = function(parameter) {
       //do something
-    };`
+    };
+    ```
