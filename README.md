@@ -44,15 +44,18 @@ if(true){
 
   * Arrays are not but a variable composed of elements of the same type.
     For example: ```const names = ["John", "Elliot", "Valerie", "Megan"];```
-5) Function are used to avoid writing the same code many times. To declare functions we need to
-  specify, if necessary, the parameters. In the examples bellow, a function has two parameters:
+5) Functions are used to avoid writing the same code many times. To declare functions we need to
+  specify, if necessary, the parameters. Also, there are two elementary
+  ways to declare functions: **Function declaration** and **Function expression**.
+  In the examples bellow, a function has one parameter:
   * Function declaration:
     ```
-    function myFunction(parameter) {
+    function myFunction01(parameter) {
       //do something with parameter
       return parameter
     };
     ```
+  * Calling this function: `let x = myFunction02(parameter);`
 
   * Function expression:
     ```
@@ -60,3 +63,5 @@ if(true){
       //do something
     };
     ```
+    * In the case of functions expressions You do not need to assign it to a varible, because it has
+    been assigned already: `myFunction(parameter);`
